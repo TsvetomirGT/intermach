@@ -60,7 +60,14 @@ Color coding: 🟢 great &nbsp; 🟡 okay &nbsp; 🔴 poor
 
 ## 🚀 Installation
 
-### Option 1 — Install globally (recommended)
+### Option 1 — Homebrew (recommended)
+
+```bash
+brew tap TsvetomirGT/intermach
+brew install intermach
+```
+
+### Option 2 — Install globally from source
 
 ```bash
 git clone https://github.com/tsvetomirgt/intermach.git
@@ -70,14 +77,14 @@ make install       # may prompt for sudo password
 
 This builds the binary and places it in `/usr/local/bin` so you can run `intermach` from anywhere.
 
-### Option 2 — Build locally
+### Option 3 — Build locally
 
 ```bash
 make build
 ./intermach
 ```
 
-### Option 3 — Run without building
+### Option 4 — Run without building
 
 ```bash
 make run
